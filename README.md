@@ -6,8 +6,8 @@ The motivation, work flow and results of this analysis are discussed in the powe
 
 The data files used in this analysis were downloaded from the web page 
 https://open.fda.gov/downloads/
-of the OpenFDA project.  These files came in the json format and were stored in the json_files/ sub-folder.
-But these files are quite large and consequently the json_files/ folder is not included in this repository.
+of the OpenFDA project.  These files came in the json format and were stored in a sub-folder called json_files/.
+These files are quite large and consequently the json_files/ sub-folder is not included in this repository.
 
 The python files transformed these json files into pickle dictionaries (also very large and stored in a 
 folder called obj/, not included in this repository) and then picked up the relevant fields from them to
@@ -19,5 +19,5 @@ drug adverse effects in 21 countries.  It then calculates frequencies and propor
 into CSV files called "CountryEventsProportions" corresponding to sets of 11, 21, 28 & 48 adverse effects.
 These files are much smaller and are included in this repository.
 
-Finally the file called "CountryEventAnalysis.R" analyses this dataset and creates the figures contained
+Finally the file called "CountryEventAnalysis.R" analyses these datasets and creates the figures contained
 in the presentation.
