@@ -7,7 +7,7 @@ The motivation, work flow and results of this analysis are discussed in the powe
 The data files used in this analysis were downloaded from the web page 
 https://open.fda.gov/downloads/
 of the OpenFDA project.  These files came in the json format and were stored in the json_files/ sub-folder.
-But they are quite large and are not included in this repository.
+But these files are quite large and consequently the json_files/ folder is not included in this repository.
 
 The python files transformed these json files into pickle dictionaries (also very large and stored in a 
 folder called obj/, not included in this repository) and then picked up the relevant fields from them to
